@@ -1,0 +1,12 @@
+1- Symbols r, w and x mean Read, Write and Execute respectively, dashes are when those permissions aren't given
+
+2- Executables files are the ones that have x in their permissions
+
+3- secret.txt, because the group and others do not have any read/write/exec permissions for the files
+
+4- file1.txt has read permissions for everyone but secret.txt has only read write from the owner user
+
+5- Owner defines the user who created the file, Group is the user group that the owner is a part of,
+and Others are the ones that aren't in this group.
+
+I learned the chmod cmd in-depth, and now know how to pass in octal args to it
