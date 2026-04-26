@@ -1,0 +1,11 @@
+Problem 1: To override a base class's function in another class, we use the concept of inheritance to derive that function but change it accordingly (Animal -> Dog)
+
+Problem 2: We access the students list via self so we can append to it, and use len() to print its length
+
+Problem 3: We can incorporate different classes and objects together now, I used isinstance to check for if the passed obj is of the right class
+
+Problem 4: Same with Problem 4, I used isinstance to check for obj class, I added a function that uses the scores to make things different
+
+Problem 5: Using Polymorphism/Inheritance, we can make multiple shapes via abstract classes, 
+because a Shape has an area but the base class of Shape does not have its own definition of an area
+We use an abstract class to make a blueprint of area() so the other classes would follow on it
