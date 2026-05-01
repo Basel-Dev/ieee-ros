@@ -21,4 +21,4 @@ while len(code) > 0:
         code.remove(currentChar)
         code.remove(nextChar)
             
-print(answer)
+print(f"Output: {answer}")

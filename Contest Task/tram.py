@@ -15,4 +15,4 @@ for line in range(noOfLines):
     if maximumCapacity < currentCapacity:
         maximumCapacity = currentCapacity
 
-print(maximumCapacity)
+print(f"Output: {maximumCapacity}")

@@ -13,5 +13,5 @@ def returnWord(str):
 
 for line in range(noOfLines):
     word = input()
-    print(returnWord(word))
+    print(f"Output: {returnWord(word)}")
 

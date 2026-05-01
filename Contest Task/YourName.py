@@ -15,6 +15,6 @@ for line in range(noOfLines):
         nameDict[name[i]] += 1
 
     if cubeDict == nameDict:
-        print("YES")
+        print("Output: YES")
     else:
-        print("NO")
+        print("Output: NO")

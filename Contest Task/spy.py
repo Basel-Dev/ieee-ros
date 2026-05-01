@@ -11,4 +11,4 @@ for line in range(noOfLines):
     
     spyElement = min(tallyDict, key=tallyDict.get)
     
-    print(arr.index(spyElement)+1)
+    print(f"Output: {arr.index(spyElement)+1}")

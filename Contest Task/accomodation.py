@@ -11,4 +11,4 @@ for line in range(noOfLines):
     else:
         continue;
 
-print(numToPrint)
+print(f"Output: {numToPrint}")
